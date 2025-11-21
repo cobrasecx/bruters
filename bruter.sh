@@ -10,7 +10,7 @@ PASSWORDS="rockyou.txt"
 # Verificar si los archivos existen
 if [ ! -f "$USUARIOS" ] || [ ! -f "$PASSWORDS" ]; then
     echo "Error: Archivos $USUARIOS o $PASSWORDS no encontrados."
-    echo "Uso: ./ataque_su.sh"
+    echo "Uso: ./bruter.sh"
     exit 1
 fi
 
